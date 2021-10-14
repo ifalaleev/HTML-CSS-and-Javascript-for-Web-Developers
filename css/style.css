@@ -12,11 +12,13 @@
 /* ------------------------- */
 body {
 	font: 24px Arial, sans-serif;
+	background-color: #031936;
 }
 h1 {
 	margin: 20px auto;
 	text-align: center;
 	font-size: 95;
+	color: #a5f2e9;
 }
 
 h2 {
@@ -29,8 +31,8 @@ h2 {
 }
 
 section {
-	border: 1px solid black;
-	background-color: gray;
+	border: 2px solid black;
+	background-color: #889bb5;
 	margin: 15px 10px;
 	position: relative;
 }
