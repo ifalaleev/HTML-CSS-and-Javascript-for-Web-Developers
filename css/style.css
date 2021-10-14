@@ -3,64 +3,90 @@
 /* ------------------------- */
 * {
 	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
 }
 
 /* ------------------------- */
 /* Global */
 /* ------------------------- */
+body {
+	font: 24px Arial, sans-serif;
+}
 h1 {
-	margin-bottom: 15px;
+	margin: 20px auto;
+	text-align: center;
+	font-size: 95;
+}
+
+h2 {
+	float: right;
+	text-align: center;
+	padding: 5px 10px;
+	width: 130px;
+	border: 1px solid black;
+	font-size: 85%;
+}
+
+section {
+	border: 1px solid black;
+	background-color: gray;
+	margin: 15px 10px;
+	position: relative;
+}
+
+div section:nth-child(1) h2 {
+	background-color: pink;
+}
+
+div section:nth-child(2) h2 {
+	background-color: brown;
+}
+
+div section:nth-child(3) h2 {
+	background-color: greenyellow;
 }
 
 p {
-	border: 1px solid black;
-	background-color: #a52a2a;
-	width: 90%;
 	height: 150px;
-	margin-right: auto;
-	margin-left: auto;
-	font-family: Halvetica;
+	padding: 20px;
+	font-size: 65%;
 	color: white;
+	clear: right;
 }
 
 /* ------------------------- */
 /* Large Devices Only */
 /* ------------------------- */
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
 	.col-lg-4 {
 		float: left;
-		width: 33%;
-		border: 1px solid green;
+		width: 30%;
 	}
 }
 
 /* ------------------------- */
 /* Medium Devices Only */
 /* ------------------------- */
-@media (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
 	.col-md-6,
 	.col-md-12 {
 		float: left;
-		border: 1px solid green;
 	}
-
 	.col-md-6 {
-		width: 50%;
+		width: 47%;
 	}
 
 	.col-md-12 {
-		width: 100%;
+		width: 96%;
 	}
 }
 /* ------------------------- */
 /* Medium Devices Only */
 /* ------------------------- */
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
 	.col-sm-12 {
 		float: left;
 		width: 100%;
-		border: 1px solid green;
-		padding-left: auto;
-		padding-right: auto;
 	}
 }
