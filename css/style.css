@@ -33,7 +33,8 @@ h2 {
 section {
 	border: 2px solid black;
 	background-color: #889bb5;
-	margin: 15px 10px;
+	width: 100%;
+	margin: 15px auto;
 	position: relative;
 }
 
@@ -63,7 +64,7 @@ p {
 @media screen and (min-width: 992px) {
 	.col-lg-4 {
 		float: left;
-		width: 30%;
+		width: 33%;
 	}
 }
 
